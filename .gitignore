@@ -1,0 +1,13 @@
+# Ignore everything by default
+# ignores everything
+* 
+
+# But don't ignore these folders
+!.gitignore
+# allows the folder itself to be seen
+!week-3-js-algorithms/
+# allows files inside the folder to be seen
+!week-3-js-algorithms/**
+# Ignore any .DS_Store file in the root folder
+# Also ignore any .DS_Store file inside any subfolder, recursively
+.DS_Store
