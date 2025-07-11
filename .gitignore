@@ -1,13 +1,23 @@
+# -----------------------------------------------------------------------
+# Ignore file/s and folder/s everywhere in the project
+# -----------------------------------------------------------------------
+**/node_modules/
+**/ignore-folders/
+.DS_Store
+
+# -----------------------------------------------------------------------
 # Ignore everything by default
-# ignores everything
+# -----------------------------------------------------------------------
 * 
 
-# But don't ignore these folders
+# -----------------------------------------------------------------------
+# But don't ignore these file/s and folder/s
+# -----------------------------------------------------------------------
 !.gitignore
-# allows the folder itself to be seen
+
+# allows the folder itself to be seen and track all file/s inside it
 !week-3-js-algorithms/
-# allows files inside the folder to be seen
 !week-3-js-algorithms/**
-# Ignore any .DS_Store file in the root folder
-# Also ignore any .DS_Store file inside any subfolder, recursively
-.DS_Store
+
+!cypress/
+!cypress/**
