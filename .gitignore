@@ -4,6 +4,7 @@
 **/node_modules/
 **/ignore-folders/
 .DS_Store
+**/delekhomesdotcom/
 
 # -----------------------------------------------------------------------
 # Ignore everything by default
